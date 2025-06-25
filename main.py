@@ -7,7 +7,7 @@ if game_rect:
     # 计算比例
     current_width, current_height = zb_right, zb_bottom
     # 计算宽高比例
-    print(game_rect)
+    print(current_width,current_height)
 
 
 else:
