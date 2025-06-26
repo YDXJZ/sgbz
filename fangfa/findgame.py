@@ -1,5 +1,5 @@
+import win32gui
 import re
-
 
 def get_game_window(title_pattern):
     """
@@ -21,4 +21,3 @@ def get_game_window(title_pattern):
         left, top, right, bottom = hwnd_list[0]
         return (left, top, right - left, bottom - top)
     return None
-
